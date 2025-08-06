@@ -1,0 +1,1 @@
+async function s(o){const t="https://api.cloudinary.com/v1_1/docqcb9qg/image/upload",a=new FormData;return a.append("file",o),a.append("upload_preset","yugsd7zz"),(await(await fetch(t,{method:"POST",body:a})).json()).secure_url}export{s as uploadToCloudinary};
